@@ -16,4 +16,3 @@ cd ../dmenu && make && sudo make clean install
 cd ../slstatus && make && sudo make clean install
 cd ~
 echo "dwm" >> .xinitrc
-sudo reboot
