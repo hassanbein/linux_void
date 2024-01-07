@@ -3,7 +3,7 @@ cd ~
 mkdir .config
 cd .config/
 mkdir suckless && cd suckless/
-sudo xbps-install -Sy git base-devel vim tmux htop gcc make nerd-fonts noto-fonts-emoji noto-fonts-cjk 
+sudo xbps-install -Sy git base-devel vim tmux htop gcc make nerd-fonts noto-fonts-emoji noto-fonts-cjk papirus-folders papirus-icon-theme intel-media-driver 
 sudo xbps-install -Sy lsd mpv htop neofetch cmatrix lolcat yt-dlp ffmpeg ranger rsync terminus-font firefox
 git clone https://git.suckless.org/dmenu
 git clone https://git.suckless.org/dwm
