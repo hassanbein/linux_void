@@ -15,4 +15,4 @@ cd ../dwm && make && sudo make clean install
 cd ../dmenu && make && sudo make clean install
 cd ../slstatus && make && sudo make clean install
 cd ~
-echo "dwm" >> .xinitrc
+echo "dwm &" >> .xinitrc
