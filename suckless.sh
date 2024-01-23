@@ -21,5 +21,5 @@ make ; sudo make clean install
 cd ../dmenu && make && sudo make clean install
 cd ../slstatus && make && sudo make clean install
 cd ~
-mkdir .xinitrc
+touch .xinitrc
 echo "dwm" > .xinitrc
