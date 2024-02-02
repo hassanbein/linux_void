@@ -10,7 +10,7 @@ cd suckless/
 sudo xbps-install -Sy make vim tmux htop firefox nerd-fonts
 git clone https://git.suckless.org/dmenu
 git clone https://git.suckless.org/dwm
-git clone https://git.suckless.org/st
+git clone https://github.com/hassanbein/st.git
 git clone https://git.suckless.org/slstatus
 sudo xbps-install -Sy xorg base-devel libX11-devel libXft-devel libXinerama-devel gcc python feh libXrandr-devel ffmpeg mpv mpd alacritty zathura scrot vlc gimp 
 cd st/ 
