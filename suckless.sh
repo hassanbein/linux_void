@@ -16,7 +16,7 @@ sudo xbps-install -Sy xorg base-devel libX11-devel libXft-devel libXinerama-deve
 cd st/ 
 make
 sudo make clean install
-cd ../dwm6.4_patch
+cd ../dwm6.4
 make ; sudo make clean install
 cd ../dmenu && make && sudo make clean install
 cd ../slstatus && make && sudo make clean install
