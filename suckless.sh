@@ -9,7 +9,7 @@ mkdir suckless/
 cd suckless/
 sudo xbps-install -Sy make vim tmux htop firefox nerd-fonts libsensors
 git clone https://git.suckless.org/dmenu
-git clone https://github.com/hassanbein/dwm6.4_patch
+git clone https://github.com/hassanbein/dwm6.4.git
 git clone https://github.com/hassanbein/st.git
 git clone https://github.com/hassanbein/slstatus
 sudo xbps-install -Sy xorg base-devel libX11-devel libXft-devel libXinerama-devel gcc python feh libXrandr-devel ffmpeg mpv mpd alacritty zathura scrot 
