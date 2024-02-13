@@ -7,7 +7,7 @@ mkdir .config/
 cd .config/
 mkdir suckless/ 
 cd suckless/
-sudo xbps-install -Sy make vim tmux htop firefox nerd-fonts libsensors
+sudo xbps-install -Sy make vim tmux htop firefox nerd-fonts libsensors gcc numlockx feh dunst
 git clone https://git.suckless.org/dmenu
 git clone https://github.com/hassanbein/dwm6.4.git
 git clone https://github.com/hassanbein/st.git
